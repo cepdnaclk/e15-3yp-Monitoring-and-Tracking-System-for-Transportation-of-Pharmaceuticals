@@ -1,57 +1,74 @@
-___
-# DELETE THIS INSTRUCTIONS AND ADD AN INTRODUCTION ABOUT YOUR PROJECT
-___
+---
+layout: home
+permalink: index.html
+repository-name: eYY-3yp-Monitoring-and-Tracking-System-for-Transportation-of-Pharmaceuticals
+title: Monitoring and Tracking System for Transportation of Pharmaceuticals
+---
 
-# eYY-3yp-project-template
+# Project Title
 
-This is a sample repository you can use for your Embedded Systems project. Once you followed these instructions, remove the text and add a brief introduction to here.
+---
 
-### Enable GitHub Pages
+## Monitoring and Tracking System for Transportation of Pharmaceuticals
+-  E/15/021, M.M.M. Aslam, [e15021@eng.pdn.ac.lk](mailto:e15021@eng.pdn.ac.lk)
+-  E/15/131, M.H. Hisni Mohamed, [e15131@eng.pdn.ac.lk](mailto:e15131@eng.pdn.ac.lk)
+-  E/15/348, S. Suhail, [e15348@eng.pdn.ac.lk](mailto:e15348@eng.pdn.ac.lk)
 
-You can put the things to be shown in GitHub pages into the _docs/_ folder. Both html and md file formats are supported. You need to go to settings and enable GitHub pages and select _main_ branch and _docs_ folder from the dropdowns, as shown in the below image.
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Solution Architecture](#solution-architecture )
+3. [Hardware & Software Designs](#hardware-and-software-designs)
+4. [Testing](#testing)
+5 [Links](#links)
 
-![image](https://user-images.githubusercontent.com/11540782/98789936-028d3600-2429-11eb-84be-aaba665fdc75.png)
+---
 
-### Special Configurations
+## Introduction
 
-These projects will be automatically added into [https://projects.ce.pdn.ac.lk](). If you like to show more details about your project on this site, you can fill the parameters in the file, _/docs/index.json_
+When Medicines or Drugs are transported or stored there are conditions that have to be satisfied, such as Temperature, Pressure, Moisture inside the box. It’s important for Medicine Distributors or Hospital management to ensure that medicines or medical samples are kept in a certain controlled environment. And also important to track these items when transported.
 
-```
-{
-  "title": "This is the title of the project",
-  "team": [
-    {
-      "name": "Team Member Name 1",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    },
-    {
-      "name": "Team Member Name 2",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    },
-    {
-      "name": "Team Member Name 3",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    }
-  ],
-  "supervisors": [
-    {
-      "name": "Dr. Supervisor 1",
-      "email": "email@eng.pdn.ac.lk"
-    },
-    {
-      "name": "Supervisor 2",
-      "email": "email@eng.pdn.ac.lk"
-    }
-  ],
-  "tags": ["Web", "Embedded Systems"]
-}
-```
+This Project is a system that could monitor the variations in these parameters and track the locations of items being transported and let the relevant person know through a mobile app. This project will be helpful to Medicine Distributors and Hospital Management to transport Medicine, Medical Samples or Organs Safely.
 
-Once you filled this _index.json_ file, please verify the syntax is correct. (You can use [this](https://jsonlint.com/) tool).
 
-### Page Theme
+## Solution Architecture
 
-A custom theme integrated with this GitHub Page, which is based on [github.com/cepdnaclk/eYY-project-theme](https://github.com/cepdnaclk/eYY-project-theme). If you like to remove this default theme, you can remove the file, _docs/\_config.yml_ and use HTML based website.
+An Embedded System which helps to:
+
+Measure Temperature, Pressure, Humidity, 3D Orientation of the product being transported and observe the variations through a mobile app and web interface.
+Get a warning alert when a parameter changes drastically or a condition is broken.
+Track the location of the product being transported.
+Maintain a database and analyze the variations in parameters being monitored
+Owner of the product, the person in charge of the distribution, the wholesale buyer can monitor the database.
+It can be used for all the products which are needed to be transported in controlled conditions.
+
+## Hardware and Software Designs
+### Overall Design
+![image](https://user-images.githubusercontent.com/73756777/119254727-a2e0c600-bbd5-11eb-894f-045d7a131fde.png)
+![image](https://user-images.githubusercontent.com/73756777/119254752-d15ea100-bbd5-11eb-8396-7d263c64faae.png)
+
+
+
+
+## Testing
+Test Plan for the Project
+
+We planed to do 4 tests for our project.
+
+1.Test for Backend Server
+ 
+2.Load Test for Relay Node (NodeMCU ESP8266 Access Point)
+
+3.Unit Test for Sensors (DHT22, BMP280)
+
+4.Unit Test for GPS module (uBlox Neo-6)
+
+## Links  
+- <a href = "https://github.com/cepdnaclk/e15-3yp-Monitoring-and-Tracking-System-for-Transportation-of-Pharmaceuticals" target = "_blank"> Project Repository </a>
+- <a href = "https://cepdnaclk.github.io/e15-3yp-Monitoring-and-Tracking-System-for-Transportation-of-Pharmaceuticals/" target = "_blank">Project Page</a>
+- <a href = "http://www.ce.pdn.ac.lk/" target = "_blank">Department of Computer Engineering</a>
+- <a href = "https://eng.pdn.ac.lk/" target = "_blank">University of Peradeniya</a>
+
+
+
+[//]: # (Please refer this to learn more about Markdown syntax)
+[//]: # (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
