@@ -10,9 +10,9 @@ title: Monitoring and Tracking System for Transportation of Pharmaceuticals
 ---
 
 ## Monitoring and Tracking System for Transportation of Pharmaceuticals
--  E/15/021, M.M.M. Aslam, [e15021@eng.pdn.ac.lk](mailto:e15021@eng.pdn.ac.lk)
--  E/15/131, M.H. Hisni Mohamed, [e15131@eng.pdn.ac.lk](mailto:e15131@eng.pdn.ac.lk)
--  E/15/348, S. Suhail, [e15348@eng.pdn.ac.lk](mailto:e15348@eng.pdn.ac.lk)
+-  E/15/021, M.M.M. Aslam, [aslam.m9618@gmail.com](mailto:aslam.m9618@gmail.com)
+-  E/15/131, M.H. Hisni Mohamed, [hisnimohammed@eng.pdn.ac.lk](mailto:hisnimohammed@eng.pdn.ac.lk)
+-  E/15/348, S. Suhail, [suhailsajahan@eng.pdn.ac.lk](mailto:suhailsajahan@eng.pdn.ac.lk)
 
 ## Table of Contents
 1. [Introduction](#introduction)

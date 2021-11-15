@@ -10,9 +10,9 @@ title: Monitoring and Tracking System for Transportation of Pharmaceuticals
 ---
 
 ## Monitoring and Tracking System for Transportation of Pharmaceuticals
--  E/15/021, M.M.M. Aslam, [e15021@eng.pdn.ac.lk](mailto:e15021@eng.pdn.ac.lk)
--  E/15/131, M.H. Hisni Mohamed, [e15131@eng.pdn.ac.lk](mailto:e15131@eng.pdn.ac.lk)
--  E/15/348, S. Suhail, [e15348@eng.pdn.ac.lk](mailto:e15348@eng.pdn.ac.lk)
+-  E/15/021, M.M.M. Aslam, [aslam.m9618@gmail.com](mailto:aslam.m9618@gmail.com)
+-  E/15/131, M.H. Hisni Mohamed, [hisnimohammed@eng.pdn.ac.lk](mailto:hisnimohammed@eng.pdn.ac.lk)
+-  E/15/348, S. Suhail, [suhailsajahan@eng.pdn.ac.lk](mailto:suhailsajahan@eng.pdn.ac.lk)
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -28,7 +28,6 @@ title: Monitoring and Tracking System for Transportation of Pharmaceuticals
 When Medicines or Drugs are transported or stored there are conditions that have to be satisfied, such as Temperature, Pressure, Moisture inside the box. It’s important for Medicine Distributors or Hospital management to ensure that medicines or medical samples are kept in a certain controlled environment. And also important to track these items when transported.
 
 This Project is a system that could monitor the variations in these parameters and track the locations of items being transported and let the relevant person know through a mobile app. This project will be helpful to Medicine Distributors and Hospital Management to transport Medicine, Medical Samples or Organs Safely.
-
 
 ## Solution Architecture
 
@@ -55,7 +54,7 @@ Test Plan for the Project
 We planed to do 4 tests for our project.
 
 1.Test for Backend Server
- 
+
 2.Load Test for Relay Node (NodeMCU ESP8266 Access Point)
 
 3.Unit Test for Sensors (DHT22, BMP280)
